@@ -1,0 +1,12 @@
+.block{
+    background: #bfd1ec;
+}
+.ui-datepicker-trigger {
+	position: relative;
+	cursor: pointer;
+}
+.input{
+	margin-top: 10px;
+	width: 85px;
+	border: none;
+}

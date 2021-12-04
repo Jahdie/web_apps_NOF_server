@@ -1,0 +1,60 @@
+{% load static %}
+<!doctype html>
+<html lang="ru">
+<head>
+    <!-- Обязательные метатеги -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="{% static "css/bootstrap.css" %}" rel="stylesheet">
+    <link href="{% static "css/style.css" %}" rel="stylesheet">
+    <link href="{% static "ui/1.13.0/jquery-ui.css" %}" rel="stylesheet">
+    <link rel="stylesheet" href="{% static "ui/1.13.0/themes/base/jquery-ui.css" %}">
+    <link rel="stylesheet" href="{% static "ui/1.13.0/jquery-ui.js" %}">
+
+
+    <title>{{ title }}</title>
+</head>
+
+<body>
+<div class="container">
+
+    <!-- старт горизонтальное меню -->
+    <div class="row block">
+        <ul class="nav justify-content-start">
+            <li class="nav-item">
+                <a class="nav-link" href="{% url "disp_svodka:disp_svodka" %}">Disp_svodka</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{% url "admin:index" %}">Admin</a>
+            </li>
+        </ul>
+
+    </div>
+    <!-- конец горизонтальное меню -->
+    <div class="row">
+{#        <!-- старт вертикальное меню -->#}
+{#        {% block vertical_menu %} {% endblock %}#}
+{#        <!-- конец вертикальное меню -->#}
+
+        <!-- старт  контент -->
+
+            {% block content %} {% endblock %}
+
+        <!-- конец контент -->
+    </div>
+</div>
+
+
+<!-- Вариант 1: пакет Bootstrap с Popper -->
+{#<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>#}
+{#<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>#}
+<script src="{% static "js/bootstrap.js"%}"></script>
+<script src="{% static "js/jquery-1.12.4.js"%}"></script>
+<script src="{% static "ui/1.13.0/jquery-ui.js"%}"></script>
+{#<script src="https://code.jquery.com/jquery-1.12.4.js"></script>#}
+{#<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>#}
+{% block script %} {% endblock %}
+</body>
+</html>
