@@ -15,6 +15,7 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/web_apps_NOF" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/web_apps_NOF/disp_svodka/templatetags" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="inheritedJdk" />
@@ -26,6 +27,7 @@
       <list>
         <option value="$MODULE_DIR$/web_apps_NOF/templates" />
         <option value="$MODULE_DIR$/web_apps_NOF/disp_svodka/templates" />
+        <option value="$MODULE_DIR$/web_apps_NOF/disp_svodka/templates/disp_svodka" />
       </list>
     </option>
   </component>

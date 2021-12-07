@@ -1,5 +1,5 @@
 buttons_array = document.getElementsByName("tabs_for_disp_svodka")
-console.log(buttons_array)
+// console.log(buttons_array)
 button_class = buttons_array.item(0).classList
 button_class.add("active")
 var prev_btn_index = 0
@@ -7,7 +7,7 @@ var prev_btn_index = 0
 for (let i = 0; i < buttons_array.length; i++) {
     buttons_array.item(i).onclick = function (f) {
         var date = document.getElementById("datepicker")
-        console.log(buttons_array)
+        // console.log(buttons_array)
         // console.log(date.value)
         var current_date = date.value
         var table_name = buttons_array.item(i).id
@@ -26,7 +26,7 @@ for (let i = 0; i < buttons_array.length; i++) {
             success: function (data) {
                 // console.log(data)
                 // $("#test").html(data)
-                alert(data)
+                $("#test").html(data)
             }
         })
     }

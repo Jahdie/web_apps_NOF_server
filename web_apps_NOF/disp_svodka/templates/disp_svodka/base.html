@@ -2,14 +2,14 @@
 {% load static %}
 {% block content %}
     <div class="row">
-    <div class="col-md-6 ">
+    <div class="col-md-2 ">
         <input name="mydate" type="text" id="datepicker" disabled class="input">
     </div>
-        <div class="col-md-6">
+        <div class="col-md-10">
             <ul class="nav nav-tabs">
-                {% for foo in btn %}
+                {% for tab in tabs %}
                     <li class="nav-item">
-                        <a id={{ foo }} name="tabs_for_disp_svodka" class="nav-link">{{ foo }}</a>
+                        <a id={{ tab.stored_procedures.name}} name="tabs_for_disp_svodka" class="nav-link">{{ tab.name }}</a>
                     </li>
                 {% endfor %}
             </ul>

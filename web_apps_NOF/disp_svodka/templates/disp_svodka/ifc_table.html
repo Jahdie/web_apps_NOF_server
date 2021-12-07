@@ -1,0 +1,162 @@
+<form action="{% url 'ifc_svodka:index' %}" method="post">
+    <div class="form-group">
+        {% csrf_token %}
+        <label for="inputDate">Введите дату:</label>
+        <input name="1" type="date" value={{ date }} class="form-control">
+        <input type="submit">
+    </div>
+</form>
+<table class="table table-bordered">
+    <thead>
+    <tr>
+        <th scope="col">{{ date }}</th>
+        <th colspan="10">1 смена</th>
+        <th colspan="10">2 смена</th>
+        <th colspan="10">3 смена</th>
+        <th scope="col"></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th colspan="3">Час</th>
+        <th scope="col">1</th>
+        <th scope="col">2</th>
+        <th scope="col">3</th>
+        <th scope="col">4</th>
+        <th scope="col">5</th>
+        <th scope="col">6</th>
+        <th scope="col">7</th>
+        <th scope="col">8</th>
+        <th scope="col">1 см.</th>
+        <th scope="col">9</th>
+        <th scope="col">10</th>
+        <th scope="col">11</th>
+        <th scope="col">12</th>
+        <th scope="col">13</th>
+        <th scope="col">14</th>
+        <th scope="col">15</th>
+        <th scope="col">16</th>
+        <th scope="col">2 см.</th>
+        <th scope="col">17</th>
+        <th scope="col">18</th>
+        <th scope="col">19</th>
+        <th scope="col">20</th>
+        <th scope="col">21</th>
+        <th scope="col">22</th>
+        <th scope="col">23</th>
+        <th scope="col">24</th>
+        <th scope="col">3 см.</th>
+        <th scope="col">сутки</th>
+        <th scope="col">с.н.м.</th>
+    </tr>
+    <tr>
+        <th rowspan=4>5-5</th>
+        <th rowspan=4>Никелевый конц. общий</th>
+        <th scope="row">Ni</th>
+        {% for value in Ni5_5.values %}
+            <td scope="row">{{ value }}</td>
+        {% endfor %}
+    </tr>
+    <tr>
+        <th scope="row">Cu</th>
+        {% for value in Cu5_5.values %}
+            <td scope="row">{{ value }}</td>
+        {% endfor %}
+    </tr>
+    <tr>
+        <th scope="row">S</th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+    </tr>
+    <tr>
+        <th scope="row">SiO2</th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+        <th scope="row"></th>
+    </tr>
+    <tr>
+        <th rowspan=2>5-9</th>
+        <th rowspan=2>Медный конц. общий</th>
+        <th scope="row">Ni</th>
+        {% for value in Ni5_9.values %}
+            <td scope="row">{{ value }}</td>
+        {% endfor %}
+
+    </tr>
+    <tr>
+        <th scope="row">Cu</th>
+        {% for value in Cu5_9.values %}
+            <td scope="row">{{ value }}</td>
+        {% endfor %}
+    </tr>
+    <tr>
+        <th rowspan=2>3-2</th>
+        <th rowspan=2>Слив кл. 1 шихты вкр. руд</th>
+        <th scope="row">Ni</th>
+        {% for value in Ni3_2.values %}
+            <td scope="row">{{ value }}</td>
+        {% endfor %}
+
+    </tr>
+    <tr>
+        <th scope="row">Cu</th>
+        {% for value in Cu3_2.values %}
+            <td scope="row">{{ value }}</td>
+        {% endfor %}
+    </tr>
+    </tbody>
+</table>
+

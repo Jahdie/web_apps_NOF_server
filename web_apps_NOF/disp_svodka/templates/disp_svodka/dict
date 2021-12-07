@@ -1,0 +1,1106 @@
+table_tbody = [{
+            'side': [
+                {
+                    'name_field': '5-5',
+                    'rowspan': '5',
+                    'class': 'table-warning'
+                },
+                {
+                    'name_field': 'Никелевый конц. общий',
+                    'rowspan': '5',
+                    'class': 'table-warning'
+                }
+            ],
+            'rows': [ {
+                'row': [
+                {
+                    'value': 'Ni',
+                            'class': 'table-secondary'
+                },
+                {
+                    'value': '4.21',
+                            'class': 'table-secondary'
+                },
+                {
+                    'value': '3.84',
+                            'class': 'table-secondary'
+                },
+                {
+                    'value': '3.64',
+                            'class': 'table-secondary'
+                },
+                {
+                    'value': '3.85',
+                            'class': 'table-secondary'
+                },
+                {
+                    'value': '3.85',
+                            'class': 'table-secondary'
+                },
+                {
+                    'value': '3.85',
+                            'class': 'table-secondary'
+                },
+                    {
+                        'value': '4.21',
+                            'class': 'table-secondary'
+                    },
+                    {
+                        'value': '3.84',
+                            'class': 'table-secondary'
+                    },
+                    {
+                        'value': '3.64',
+                            'class': 'table-secondary'
+                    },
+                    {
+                        'value': '3.85',
+                            'class': 'table-secondary'
+                    },
+                    {
+                        'value': '3.85',
+                            'class': 'table-secondary'
+                    },
+                    {
+                        'value': '3.85',
+                            'class': 'table-secondary'
+                    },
+                    {
+                        'value': '4.21',
+                            'class': 'table-secondary'
+                    },
+                    {
+                        'value': '3.84',
+                            'class': 'table-secondary'
+                    },
+                    {
+                        'value': '3.64',
+                            'class': 'table-secondary'
+                    },
+                    {
+                        'value': '3.85',
+                            'class': 'table-secondary'
+                    },
+                    {
+                        'value': '3.85',
+                            'class': 'table-secondary'
+                    },
+                    {
+                        'value': '3.85',
+                            'class': 'table-secondary'
+                    },
+
+                    {
+                    'value': '4.21',
+                            'class': 'table-secondary'
+                },
+                {
+                    'value': '3.84',
+                            'class': 'table-secondary'
+                },
+                {
+                    'value': '3.64',
+                            'class': 'table-secondary'
+                },
+                {
+                    'value': '3.85',
+                            'class': 'table-secondary'
+                },
+                {
+                    'value': '3.85',
+                            'class': 'table-secondary'
+                },
+                {
+                    'value': '3.85',
+                            'class': 'table-secondary'
+                },
+                    {
+                        'value': '3.64',
+                            'class': 'table-secondary'
+                    },
+                    {
+                        'value': '3.85',
+                            'class': 'table-secondary'
+                    },
+                    {
+                        'value': '3.85',
+                            'class': 'table-secondary'
+                    },
+                    {
+                        'value': '3.85',
+                            'class': 'table-secondary'
+                    },
+                    {
+                        'value': '3.85',
+                            'class': 'table-secondary'
+                    }
+                ],
+                'row_1': [
+                    {
+                        'value': 'Cu',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '4.21',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.84',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.64',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.85',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.85',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.85',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '4.21',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.84',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.64',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.85',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.85',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.85',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '4.21',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.84',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.64',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.85',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.85',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.85',
+                            'class': 'table-primary'
+                    },
+
+                    {
+                        'value': '4.21',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.84',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.64',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.85',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.85',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.85',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.64',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.85',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.85',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.85',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.85',
+                            'class': 'table-primary'
+                    }
+                ],
+                'row_2': [
+                    {
+                        'value': 'S','class': 'table-secondary'
+                    },
+                    {
+                        'value': '4.21','class': 'table-secondary'
+                    },
+                    {
+                        'value': '3.84','class': 'table-secondary'
+                    },
+                    {
+                        'value': '3.64','class': 'table-secondary'
+                    },
+                    {
+                        'value': '3.85','class': 'table-secondary'
+                    },
+                    {
+                        'value': '3.85','class': 'table-secondary'
+                    },
+                    {
+                        'value': '3.85','class': 'table-secondary'
+                    },
+                    {
+                        'value': '4.21','class': 'table-secondary'
+                    },
+                    {
+                        'value': '3.84','class': 'table-secondary'
+                    },
+                    {
+                        'value': '3.64','class': 'table-secondary'
+                    },
+                    {
+                        'value': '3.85','class': 'table-secondary'
+                    },
+                    {
+                        'value': '3.85','class': 'table-secondary'
+                    },
+                    {
+                        'value': '3.85','class': 'table-secondary'
+                    },
+                    {
+                        'value': '4.21','class': 'table-secondary'
+                    },
+                    {
+                        'value': '3.84','class': 'table-secondary'
+                    },
+                    {
+                        'value': '3.64','class': 'table-secondary'
+                    },
+                    {
+                        'value': '3.85','class': 'table-secondary'
+                    },
+                    {
+                        'value': '3.85','class': 'table-secondary'
+                    },
+                    {
+                        'value': '3.85','class': 'table-secondary'
+                    },
+
+                    {
+                        'value': '4.21','class': 'table-secondary'
+                    },
+                    {
+                        'value': '3.84','class': 'table-secondary'
+                    },
+                    {
+                        'value': '3.64','class': 'table-secondary'
+                    },
+                    {
+                        'value': '3.85','class': 'table-secondary'
+                    },
+                    {
+                        'value': '3.85','class': 'table-secondary'
+                    },
+                    {
+                        'value': '3.85','class': 'table-secondary'
+                    },
+                    {
+                        'value': '3.64','class': 'table-secondary'
+                    },
+                    {
+                        'value': '3.85','class': 'table-secondary'
+                    },
+                    {
+                        'value': '3.85','class': 'table-secondary'
+                    },
+                    {
+                        'value': '3.85','class': 'table-secondary'
+                    },
+                    {
+                        'value': '3.85','class': 'table-secondary'
+                    }
+                ],
+                'row_4': [
+                    {
+                        'value': 'Cu',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '4.21',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.84',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.64',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.85',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.85',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.85',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '4.21',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.84',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.64',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.85',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.85',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.85',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '4.21',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.84',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.64',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.85',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.85',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.85',
+                            'class': 'table-primary'
+                    },
+
+                    {
+                        'value': '4.21',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.84',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.64',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.85',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.85',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.85',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.64',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.85',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.85',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.85',
+                            'class': 'table-primary'
+                    },
+                    {
+                        'value': '3.85',
+                            'class': 'table-primary'
+                    }
+                ]
+            }]
+        },
+            {
+                'side': [
+                    {
+                        'name_field': '5-9',
+                        'rowspan': '5',
+                        'class': 'table-warning'
+                    },
+                    {
+                        'name_field': 'Медный конц. общий',
+                        'rowspan': '5',
+                        'class': 'table-warning'
+                    }
+                ],
+                'rows': [{
+                    'row': [
+                        {
+                            'value': 'Ni',
+                            'class': 'table-secondary'
+                        },
+                        {
+                            'value': '4.21',
+                            'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.84',
+                            'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.64',
+                            'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-secondary'
+                        },
+                        {
+                            'value': '4.21',
+                            'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.84',
+                            'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.64',
+                            'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-secondary'
+                        },
+                        {
+                            'value': '4.21',
+                            'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.84',
+                            'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.64',
+                            'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-secondary'
+                        },
+
+                        {
+                            'value': '4.21',
+                            'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.84',
+                            'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.64',
+                            'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.64',
+                            'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-secondary'
+                        }
+                    ],
+                    'row_1': [
+                        {
+                            'value': 'Cu',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '4.21',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.84',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.64',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '4.21',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.84',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.64',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '4.21',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.84',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.64',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-primary'
+                        },
+
+                        {
+                            'value': '4.21',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.84',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.64',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.64',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-primary'
+                        }
+                    ],
+                    'row_2': [
+                        {
+                            'value': 'S', 'class': 'table-secondary'
+                        },
+                        {
+                            'value': '4.21', 'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.84', 'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.64', 'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.85', 'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.85', 'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.85', 'class': 'table-secondary'
+                        },
+                        {
+                            'value': '4.21', 'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.84', 'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.64', 'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.85', 'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.85', 'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.85', 'class': 'table-secondary'
+                        },
+                        {
+                            'value': '4.21', 'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.84', 'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.64', 'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.85', 'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.85', 'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.85', 'class': 'table-secondary'
+                        },
+
+                        {
+                            'value': '4.21', 'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.84', 'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.64', 'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.85', 'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.85', 'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.85', 'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.64', 'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.85', 'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.85', 'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.85', 'class': 'table-secondary'
+                        },
+                        {
+                            'value': '3.85', 'class': 'table-secondary'
+                        }
+                    ],
+                    'row_4': [
+                        {
+                            'value': 'Cu',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '4.21',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.84',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.64',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '4.21',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.84',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.64',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '4.21',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.84',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.64',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-primary'
+                        },
+
+                        {
+                            'value': '4.21',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.84',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.64',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.64',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-primary'
+                        },
+                        {
+                            'value': '3.85',
+                            'class': 'table-primary'
+                        }
+                    ]
+                }]
+            }
+        ]
+
+         table_thead_1 = [
+            {
+                'name_field': 'date',
+                'colspan': '3',
+            },
+            {
+                'name_field': '1 смена',
+                'colspan': '9',
+            },
+            {
+                'name_field': '2 смена',
+                'colspan': '9',
+            },
+            {
+                'name_field': '3 смена',
+                'colspan': '9',
+            },
+            {
+                'name_field': '',
+                'colspan': '1',
+            },
+            {
+                'name_field': '',
+                'colspan': '1',
+            },
+        ]
+        table_thead_2 = [
+            {
+                'name_field': 'Час',
+                'colspan': '3',
+            },
+            {
+                'name_field': '1',
+                'colspan': '1',
+            },
+            {
+                'name_field': '2',
+                'colspan': '1',
+            },
+            {
+                'name_field': '3',
+                'colspan': '1',
+            },
+            {
+                'name_field': '4',
+                'colspan': '1',
+            },
+            {
+                'name_field': '5',
+                'colspan': '1',
+            },
+            {
+                'name_field': '6',
+                'colspan': '1',
+            },
+            {
+                'name_field': '7',
+                'colspan': '1',
+            },
+            {
+                'name_field': '8',
+                'colspan': '1',
+            },
+            {
+                'name_field': '1 см.',
+                'colspan': '1',
+            },
+            {
+                'name_field': '9',
+                'colspan': '1',
+            },
+            {
+                'name_field': '10',
+                'colspan': '1',
+            },
+            {
+                'name_field': '11',
+                'colspan': '1',
+            },
+            {
+                'name_field': '12',
+                'colspan': '1',
+            },
+            {
+                'name_field': '13',
+                'colspan': '1',
+            },
+            {
+                'name_field': '14',
+                'colspan': '1',
+            },
+            {
+                'name_field': '15',
+                'colspan': '1',
+            },
+            {
+                'name_field': '16',
+                'colspan': '1',
+            },
+            {
+                'name_field': '2 см.',
+                'colspan': '1',
+            },
+            {
+                'name_field': '17',
+                'colspan': '1',
+            },
+            {
+                'name_field': '18',
+                'colspan': '1',
+            },
+            {
+                'name_field': '19',
+                'colspan': '1',
+            },
+            {
+                'name_field': '20',
+                'colspan': '1',
+            },
+            {
+                'name_field': '21',
+                'colspan': '1',
+            },
+            {
+                'name_field': '22',
+                'colspan': '1',
+            },
+            {
+                'name_field': '23',
+                'colspan': '1',
+            },
+            {
+                'name_field': '24',
+                'colspan': '1',
+            },
+            {
+                'name_field': '3 см.',
+                'colspan': '1',
+            },
+            {
+                'name_field': 'сутки',
+                'colspan': '1',
+            },
+            {
+                'name_field': 'с.н.м',
+                'colspan': '1',
+            },
+        ]
