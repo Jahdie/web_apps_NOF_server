@@ -199,7 +199,6 @@ class TableSiders(models.Model):
                 for el in tbody_values:
                     tsiders[table_num][tsider_serial_num].append(el)
             # print(tsiders)
-
             column_start += 1
 
     # print(tsiders)

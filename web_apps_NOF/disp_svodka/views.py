@@ -40,7 +40,7 @@ def get_table_of_dispatchers_summary_by_tab_name(request, date_selected, tab_nam
                     row_end = el['row_end']
                     value = el['field_value']
 
-                    # print(column_start, column_end, row_start, row_end, el, value)
+                    print(column_start, column_end, row_start, row_end, el, value)
 
                     ws.cell(row=row_start, column=column_start).value = value
                     ws.cell(column=column_start, row=row_start).border = border
