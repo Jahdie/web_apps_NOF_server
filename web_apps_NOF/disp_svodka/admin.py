@@ -2,13 +2,23 @@ from django.contrib import admin
 from .models import *
 
 
-class TableHeadAdmin(admin.ModelAdmin):
-    list_display = ('id', 'field_name', 'scope', 'colspan', 'rowspan', 'class_name', 'table_thead_serial_num', 'column_serial_num',
-                    'name_tabs_of_disp_svodka')
-    list_filter = ('id', 'field_name')
+class TableHeadsAdmin(admin.ModelAdmin):
+    list_display = (
+        'id', 'table_num', 'field_value', 'colspan', 'rowspan', 'class_name', 'thead_serial_num',
+        'column_serial_num',
+        'tab_name', 'thead_field_type', )
+    list_filter = ('id', 'field_value')
 
 
-MODELS_LIST = [DispSvodkaStoredProcedures, NameTabsOfDispSvodka]
+class TableSidersAdmin(admin.ModelAdmin):
+    list_display = (
+        'id', 'table_num', 'field_value', 'colspan', 'rowspan', 'class_name', 'tsider_serial_num', 'column_serial_num',
+        'tab_name', 'db_field_name', 'fields_type_and_request_index_dict')
+    list_filter = ('id', 'field_value',)
+
+
+MODELS_LIST = [TabNames, ServerNames, DbTableNames, DbFieldNames, DbNames, RequestsToDB, THeadFieldTypes]
 
 admin.site.register(MODELS_LIST)
-admin.site.register(TableHead, TableHeadAdmin)
+admin.site.register(TableHeads, TableHeadsAdmin)
+admin.site.register(TableSiders, TableSidersAdmin)

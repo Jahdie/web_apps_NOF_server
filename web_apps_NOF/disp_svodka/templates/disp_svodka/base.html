@@ -2,19 +2,23 @@
 {% load static %}
 {% block content %}
     <div class="row">
-    <div class="col-md-2 ">
-        <input name="mydate" type="text" id="datepicker" disabled class="input">
+        <div class="col-md-2 ">
+            <input name="mydate" type="text" id="datepicker" disabled class="input">
+        </div>
     </div>
-        <div class="col-md-10">
+    <div class="row">
+        <div class="col-md-10 disp_sv">
             <ul class="nav nav-tabs">
                 {% for tab in tabs %}
                     <li class="nav-item">
-                        <a id={{ tab.stored_procedures.name}} name="tabs_for_disp_svodka" class="nav-link">{{ tab.name }}</a>
+                        <a id={{ tab.name_en }} name="tabs_for_disp_svodka" class="nav-link">{{ tab.name }}</a>
                     </li>
                 {% endfor %}
             </ul>
         </div>
     </div>
+
+
     <div id="test"></div>
     {% block test %} {% endblock %}
 

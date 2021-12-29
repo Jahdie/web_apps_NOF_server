@@ -1,22 +1,25 @@
-{% load my_filter %}
 {% load static %}
 <table class="table table-bordered table-sm">
-    <thead>
-    {% for ths in table_thead.values %}
-        <tr align="center">
-            {% for th in ths %}
-                <td class="{{ th.class_name }}" scope="{{ th.scope }}"
-                    colspan={{ th.colspan }} rowspan={{ th.rowspan }}>{{ th.field_name }}</td>
-            {% endfor %}
-        </tr>
-    {% endfor %}
 
-    </thead>
-    <tbody>
-        {% for foo in 32|times %}
-            <td name="my_td" contenteditable="true">{{ foo }}</td>
+    {% for item in table.values %}
+
+        {% for el in item.values %}
+
+            <tr>
+                {% for foo in el %}
+
+                    <td valign="middle" class="{{ foo.class_name }}" colspan={{ foo.colspan }}
+                            rowspan={{ foo.rowspan }}>{{ foo.field_value }}</td>
+
+                {% endfor %}
+
+            </tr>
+
         {% endfor %}
 
-    </tbody>
+    {% endfor %}
+
+
 </table>
+
 <script src="{% static "js/disp_svodka/get_value_from_td.js" %}"></script>

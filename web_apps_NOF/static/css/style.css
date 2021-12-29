@@ -9,7 +9,15 @@
 	margin-top: 10px;
 	width: 85px;
 	border: none;
+	background-color: white;
 }
 .td-row{
 	font-size: xx-small;
+}
+.disp_sv{
+	margin-top: 15px;
+	font-size: 14px;
+}
+.my_td{
+	text-align: center;
 }
