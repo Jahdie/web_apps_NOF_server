@@ -31,23 +31,23 @@ def get_table_of_dispatchers_summary_by_tab_name(request, date_selected, tab_nam
         border = Border(left=Side(border_style='thin', color='000000'), right=Side(border_style='thin', color='000000'),
                         top=Side(border_style='thin', color='000000'), bottom=Side(border_style='thin', color='000000'))
         #
-        for item in table.values():
-            for a in item.values():
-                for el in a:
-                    column_start = el['column_start']
-                    column_end = el['column_end']
-                    row_start = el['row_start']
-                    row_end = el['row_end']
-                    value = el['field_value']
-
-                    print(column_start, column_end, row_start, row_end, el, value)
-
-                    ws.cell(row=row_start, column=column_start).value = value
-                    ws.cell(column=column_start, row=row_start).border = border
-                    ws.merge_cells(start_column=column_start, end_column=column_end, start_row=row_start,
-                                   end_row=row_end)
-
-        wb.save('C:\\Users\\Stas\\OneDrive\\Рабочий стол\\test.xlsx')
+        # for item in table.values():
+        #     for a in item.values():
+        #         for el in a:
+        #             column_start = el['column_start']
+        #             column_end = el['column_end']
+        #             row_start = el['row_start']
+        #             row_end = el['row_end']
+        #             value = el['field_value']
+        #
+        #             print(column_start, column_end, row_start, row_end, el, value)
+        #
+        #             ws.cell(row=row_start, column=column_start).value = value
+        #             ws.cell(column=column_start, row=row_start).border = border
+        #             ws.merge_cells(start_column=column_start, end_column=column_end, start_row=row_start,
+        #                            end_row=row_end)
+        #
+        # wb.save('C:\\Users\\Stas\\OneDrive\\Рабочий стол\\test.xlsx')
 
         context = {'table': table}
         return render(request, 'disp_svodka/test.html', context)
